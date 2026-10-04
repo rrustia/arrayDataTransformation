@@ -1,0 +1,107 @@
+Instructions.txt data results
+
+Task 1 - High Earners:
+[
+  { name: 'Alice', department: 'Engineering', salary: 95000, years: 3 },
+  {
+    name: 'Carol',
+    department: 'Engineering',
+    salary: 120000,
+    years: 5
+  },
+  { name: 'Eve', department: 'Marketing', salary: 80000, years: 4 }
+]
+
+Task 2 - Department Summary:
+{ Engineering: 60000, Marketing: 40000, Sales: 0 }
+
+Task 3 - Senior Staff:
+[ 'Alice', 'Carol', 'Eve' ]
+
+Task 4 - Total Payroll: $430000
+
+Task 5 - Promotion Candidates:
+[
+  { name: 'Alice', department: 'Engineering', salary: 95000, years: 3 }
+]
+
+
+=== Data.js Results ===
+Task 1 - High Earners:
+[
+  {
+    name: 'Alice Johnson',
+    department: 'Engineering',
+    salary: 95000,
+    years: 3,
+    email: 'alice@techcorp.com'
+  },
+  {
+    name: 'Carol Davis',
+    department: 'Engineering',
+    salary: 120000,
+    years: 5,
+    email: 'carol@techcorp.com'
+  },
+  {
+    name: 'Eve Brown',
+    department: 'Marketing',
+    salary: 80000,
+    years: 4,
+    email: 'eve@techcorp.com'
+  },
+  {
+    name: 'Frank Miller',
+    department: 'Engineering',
+    salary: 88000,
+    years: 2,
+    email: 'frank@techcorp.com'
+  },
+  {
+    name: 'Henry Garcia',
+    department: 'Engineering',
+    salary: 110000,
+    years: 6,
+    email: 'henry@techcorp.com'
+  },
+  {
+    name: 'Jack Thompson',
+    department: 'Sales',
+    salary: 82000,
+    years: 4,
+    email: 'jack@techcorp.com'
+  }
+]
+
+Task 2 - Department Summary:
+{ Engineering: 79500, Marketing: 49333, Sales: 52333 }
+
+Task 3 - Senior Staff:
+[
+  'Alice Johnson',
+  'Carol Davis',
+  'Eve Brown',
+  'Grace Lee',
+  'Henry Garcia',
+  'Jack Thompson'
+]
+
+Task 4 - Total Payroll: $853000
+
+Task 5 - Promotion Candidates:
+[
+  {
+    name: 'Alice Johnson',
+    department: 'Engineering',
+    salary: 95000,
+    years: 3,
+    email: 'alice@techcorp.com'
+  },
+  {
+    name: 'Frank Miller',
+    department: 'Engineering',
+    salary: 88000,
+    years: 2,
+    email: 'frank@techcorp.com'
+  }
+]
