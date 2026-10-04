@@ -1,0 +1,39 @@
+Objective
+Practice working with JavaScript arrays using map, filter, and reduce methods to transform and analyze data.
+
+Time Limit
+45 minutes
+
+📎 Helpful Downloads
+Sample Data File Available! Download the attachment file for expanded sample data with additional employees and projects to practice with.
+Challenge Data
+
+const employees = [
+  { name: "Alice", department: "Engineering", salary: 95000, years: 3 },
+  { name: "Bob", department: "Marketing", salary: 65000, years: 1 },
+  { name: "Carol", department: "Engineering", salary: 120000, years: 5 },
+  { name: "David", department: "Sales", salary: 70000, years: 2 },
+  { name: "Eve", department: "Marketing", salary: 80000, years: 4 }
+];
+
+Tasks to Complete
+Find High Earners - Return array of employees earning over $75,000
+Department Summary - Create object showing average salary by department
+Senior Staff - Get names of employees with 3+ years experience
+Total Payroll - Calculate total salary cost for all employees
+Promotion Candidates - Find employees in Engineering with 2+ years making under $100k
+Expected Output Examples
+
+// Task 1 should return:
+[
+  { name: "Alice", department: "Engineering", salary: 95000, years: 3 },
+  { name: "Carol", department: "Engineering", salary: 120000, years: 5 },
+  { name: "Eve", department: "Marketing", salary: 80000, years: 4 }
+]
+
+// Task 4 should return: 430000
+Requirements
+Use array methods (map, filter, reduce) - no for loops
+Write clean, readable code with descriptive variable names
+Add comments explaining your approach
+Test your functions with the provided data
